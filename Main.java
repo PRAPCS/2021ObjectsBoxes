@@ -1,8 +1,8 @@
 class Main {
   public static void main(String[] args) {
     
-    Boxes box1 = new Boxes();
-    Boxes box2 = new Boxes(10,20,30);
+    Boxes box1 = new Boxes();//Creates a box using the constructor without parameters
+    Boxes box2 = new Boxes(10,20,30);//constructs a box with the constructor that accepts parameters
     Boxes box3 = new Boxes(100,200,300);
 
     System.out.println(box1.getVolume());
